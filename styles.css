@@ -1,0 +1,164 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-image: url('Stop-GBV.jpg');
+    background-size: contain;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 2rem;
+    opacity: 70%;
+    font-weight: bold;
+    
+
+    }
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    opacity: 40%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #ee2a2a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #e65800;
+}
+
+input[type="file"] {
+    display: block;
+    
+}
+input[type="file"]::placeholder {
+    font-weight: bold;
+    color: #eb1414;
+}
+
+#uploadButton {
+    background-color: #f11b1b;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+.featured-videos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    margin: 20px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+.contact-authorities {
+    background-image: url(gbv.png);
+    background-size: contain;
+    background-repeat: initial;
+    background-position: center center;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-authorities h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-authorities p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-authorities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-authorities li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.locations li {
+    font-weight: bold;
+}
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}.delete-button:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Gender-Based Violence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Report Gender-Based Violence
+            <br>Speak out and make a difference</br>
+        </h1>
+    </header>
+    <div class="container">
+        <section class="report-section">
+            <h2>Report an Incident</h2>
+            <form id="reportForm">
+                <label for="location"><b>Location:</b></label>
+                <input type="text" id="location" required>
+                <label for="description"><b>Description:</b></label>
+                <textarea id="description" required></textarea>
+                <button type="submit" onclick="submitReport()"><b>Submit</b></button>
+            </form>
+        </section>
+        <section class="video-section">
+            <h2>Share Your Story</h2>
+            <input type="file" id="videoInput">
+            <button id="uploadButton"><b>Upload Video</b></button>
+        </section>
+    </div>
+    <section class="featured-videos">
+        <h2>Featured Videos</h2>
+    </section>
+    <section class="locations">
+        <h2>Reported Locations</h2>
+        <ul id="locationsList"></ul>
+    </section>
+    <section class="contact-authorities">
+        <h2>Contact Authorities</h2>
+        <ul>
+            <li>Emergency Services: 911</li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

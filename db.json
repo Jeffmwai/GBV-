@@ -1,0 +1,89 @@
+{
+  "locations": [
+    "Nairobi",
+    "Kisumu",
+    "Meru",
+    "Kapsabet",
+    "Mombasa",
+    "Eldoret",
+    "Kitale",
+    "Tharaka Nithi",
+    "Siaya"
+  ],
+  "videos": [
+    {
+      "title": "Strong Survivors: Overcoming Violence",
+      "videoID": "hjZTZm1phwo"
+    },
+    {
+      "title": "Breaking the Silence: Voices Against Abuse",
+      "videoID": "X-BJaGMObzQ"
+    },
+    {
+      "title": "Combating gender-based violence in Africa",
+      "videoID": "hjyzyWtcdqU"
+    }
+  ],
+  "reports": [
+    {
+      "id": 2,
+      "location": "Nairobi",
+      "description": "blaaa"
+    },
+    {
+      "id": 1,
+      "location": "mombasa",
+      "description": "whatever"
+    },
+    {
+      "id": 3,
+      "location": "mombasa",
+      "description": "whatever"
+    },
+    {
+      "id": 5.969936185059057,
+      "location": "ghjkl",
+      "description": "fghjkl"
+    },
+    {
+      "id": 2.3542219706744882,
+      "location": "ghjk",
+      "description": "ghjk"
+    },
+    {
+      "id": 9.601091957948682,
+      "location": "shalom",
+      "description": "beaten"
+    },
+    {
+      "id": 8.454791395395564,
+      "location": "Kesh",
+      "description": "fghjk"
+    },
+    {
+      "id": 8.137334681389152,
+      "location": "Lodwar",
+      "description": "fghjm"
+    },
+    {
+      "id": 2.3001659833229415,
+      "location": "fyuhjk",
+      "description": "fghjkl"
+    },
+    {
+      "id": 2.3560153754117463,
+      "location": "edwinna",
+      "description": "dfghj"
+    },
+    {
+      "id": 1.8696526972574867,
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": 5.455521397764047,
+      "location": "Edwinna",
+      "description": "jwebf"
+    }
+  ]
+}
